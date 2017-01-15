@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/blue1">
+<Button android:text="Quit" android:id="@+id/quit" android:layout_x="289dp" android:layout_y="7dp" android:layout_height="wrap_content" android:layout_width="66dp"></Button>
+<Button android:background="@drawable/fifty" android:id="@+id/life1" android:layout_x="361dp" android:layout_y="6dp" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+<TextView android:id="@+id/text" android:textSize="18sp" android:textColor="@color/white" android:text="no question" android:background="@color/navy" android:layout_x="6dp" android:layout_y="132dp" android:layout_width="404dp" android:layout_height="48dp"></TextView>
+<AbsoluteLayout android:id="@+id/widget180" android:background="@color/blue" android:layout_width="wrap_content" android:layout_height="224dp" android:layout_x="425dp" android:layout_y="2dp">
+    <TextView android:id="@+id/q1" android:layout_x="2dp" android:layout_y="199dp" android:text="1            5,000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:id="@+id/q2" android:layout_x="2dp" android:layout_y="178dp" android:text="2          10,000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:id="@+id/q3" android:layout_x="2dp" android:layout_y="158dp" android:text="3          20,000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:id="@+id/q5" android:layout_x="2dp" android:layout_y="122dp" android:text="5          80,000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:id="@+id/q4" android:layout_x="3dp" android:layout_y="140dp" android:text="4          40,000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:id="@+id/q6" android:layout_x="0dp" android:layout_y="104dp" android:text="6       1,60,000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/orange"></TextView>
+    <TextView android:id="@+id/q7" android:layout_x="0dp" android:layout_y="88dp" android:text="7       3,20,000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:id="@+id/q8" android:layout_x="1dp" android:layout_y="71dp" android:text="8       6,40,000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:id="@+id/q9" android:layout_x="1dp" android:layout_y="54dp" android:text="9     12,50,000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:id="@+id/q10" android:layout_x="-2dp" android:layout_y="36dp" android:text="10    25,00,000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:id="@+id/q11" android:layout_x="-3dp" android:layout_y="18dp" android:text="11    50,00,000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:id="@+id/q12" android:layout_x="-2dp" android:layout_y="0dp" android:text="12  100,00,000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+</AbsoluteLayout>
+<Button android:id="@+id/opt3" android:layout_height="34dp" android:background="@color/navy" android:textColor="@color/white" android:text="opt3" android:layout_x="12dp" android:layout_y="232dp" android:layout_width="152dp"></Button>
+<Button android:id="@+id/opt1" android:layout_height="30dp" android:background="@color/navy" android:textColor="@color/white" android:text="opt1" android:layout_x="13dp" android:layout_y="188dp" android:layout_width="152dp"></Button>
+<Button android:id="@+id/opt2" android:layout_height="33dp" android:background="@color/navy" android:textColor="@color/white" android:text="opt2" android:layout_x="254dp" android:layout_y="185dp" android:layout_width="147dp"></Button>
+<Button android:id="@+id/opt4" android:layout_height="34dp" android:background="@color/navy" android:textColor="@color/white" android:text="opt4" android:layout_x="252dp" android:layout_y="233dp" android:layout_width="151dp"></Button>
+<Button android:id="@+id/life3" android:background="@drawable/laptop" android:layout_x="294dp" android:layout_y="66dp" android:layout_width="56dp" android:layout_height="49dp"></Button>
+<Button android:layout_height="48dp" android:id="@+id/life2" android:background="@drawable/amitabh" android:layout_width="58dp" android:layout_x="360dp" android:layout_y="66dp"></Button>
+<ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/rupee" android:layout_x="2dp" android:layout_y="7dp" android:layout_height="119dp"></ImageView>
+<ImageView android:id="@+id/imageView2" android:src="@drawable/set1" android:layout_x="104dp" android:layout_y="0dp" android:layout_width="186dp" android:layout_height="128dp"></ImageView>
+</AbsoluteLayout>

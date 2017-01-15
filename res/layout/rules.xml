@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget31"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@color/blue1">
+<TextView android:layout_width="fill_parent" android:text="12 Questions, 4 possible answer, 3 Lifelines with 1 Combustible Amount and $ 1 Million top prize" android:layout_height="wrap_content" android:id="@+id/widget36" android:layout_x="0dp" android:layout_y="48dp" android:textStyle="bold" android:background="@color/maroon"></TextView>
+<TextView android:text="Ask Amitabh Bachchan to choose the correct answer" android:layout_height="wrap_content" android:id="@+id/widget40" android:layout_x="115dp" android:layout_y="206dp" android:layout_width="344dp" android:background="@color/purple">
+    <requestFocus></requestFocus>
+</TextView>
+<ImageView android:layout_height="36dp" android:layout_width="36dp" android:id="@+id/imageView3" android:src="@drawable/amitabh" android:layout_x="14dp" android:layout_y="200dp"></ImageView>
+<TextView android:text="50-50 removes two wrong options. You can use only one time." android:layout_height="wrap_content" android:background="@color/purple" android:id="@+id/widget37" android:layout_x="113dp" android:layout_y="106dp" android:layout_width="357dp"></TextView>
+<TextView android:text="RULES :" android:textSize="25sp" android:layout_height="wrap_content" android:background="@color/black" android:id="@+id/widget43" android:layout_width="wrap_content" android:layout_x="211dp" android:layout_y="6dp"></TextView>
+<TextView android:text="Ask Computer algorithm to find the probability of correct answer" android:layout_height="wrap_content" android:background="@color/purple" android:id="@+id/widget39" android:layout_width="346dp" android:layout_x="114dp" android:layout_y="153dp"></TextView>
+<ImageView android:id="@+id/imageView1" android:layout_width="34dp" android:src="@drawable/fifty" android:layout_height="34dp" android:layout_x="16dp" android:layout_y="105dp"></ImageView>
+<ImageView android:id="@+id/imageView2" android:layout_width="34dp" android:src="@drawable/laptop" android:layout_height="34dp" android:layout_x="17dp" android:layout_y="151dp"></ImageView>
+</AbsoluteLayout>

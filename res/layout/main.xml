@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/set1">
+<Button android:text="EXIT" android:layout_height="35dp" android:id="@+id/exit" android:layout_width="107dp" android:layout_x="256dp" android:layout_y="200dp" android:background="@color/gold"></Button>
+<ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/rupee" android:layout_height="wrap_content" android:layout_x="106dp" android:layout_y="74dp"></ImageView>
+<Button android:text="RULES" android:layout_height="35dp" android:id="@+id/rules" android:background="@color/gold" android:layout_width="105dp" android:layout_x="256dp" android:layout_y="125dp"></Button>
+<Button android:text="PLAY" android:layout_height="36dp" android:id="@+id/play" android:background="@color/gold" android:layout_width="104dp" android:layout_x="256dp" android:layout_y="52dp"></Button>
+</AbsoluteLayout>

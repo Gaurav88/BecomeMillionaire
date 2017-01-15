@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@drawable/set1">
+   <Button android:textColor="@color/white" android:text="Quit Game" android:layout_height="40dp" android:background="@color/blue" android:id="@+id/quit" android:layout_x="144dp" android:layout_y="166dp" android:layout_width="210dp"></Button>
+   <TextView android:background="@color/orange" android:layout_width="477dp" android:id="@+id/text" android:textSize="18sp" android:text="no question" android:layout_x="32dp" android:layout_y="35dp" android:layout_height="116dp"></TextView> 
+</AbsoluteLayout>

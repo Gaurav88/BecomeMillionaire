@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@drawable/set1">
+    <TextView android:background="@color/orange" android:layout_width="477dp" android:id="@+id/text" android:textSize="18sp" android:text="no question" android:layout_x="32dp" android:layout_y="35dp" android:layout_height="120dp"></TextView>
+    <Button android:layout_height="40dp" android:background="@color/blue" android:id="@+id/finish" android:layout_width="245dp" android:text="Finish" android:textColor="@color/white" android:layout_x="148dp" android:layout_y="176dp" android:visibility="invisible"></Button>
+    <Button android:text="Next Question" android:textColor="@color/white" android:layout_height="40dp" android:id="@+id/next" android:background="@color/blue" android:layout_width="245dp" android:layout_x="146dp" android:layout_y="168dp"></Button>
+</AbsoluteLayout>
